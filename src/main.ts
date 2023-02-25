@@ -12,7 +12,7 @@ async function bootstrap() {
     credentials: true,
     origin: [
       'http://localhost:3000',
-      'https://frontend-todo-nextjs-five.vercel.app/',
+      'https://frontend-todo-nextjs-five.vercel.app',
     ],
   });
   app.use(cookieParser());
